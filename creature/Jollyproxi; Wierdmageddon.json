@@ -19,8 +19,8 @@
 		],
 		"edition": "classic",
 		"dateAdded": 1751400676,
-		"dateLastModified": 1751400676,
-		"_dateLastModifiedHash": "4d150ecbce"
+		"dateLastModified": 1753649972,
+		"_dateLastModifiedHash": "bc0eeb23de"
 	},
 	"monster": [
 		{
@@ -2628,7 +2628,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"14th-level Wild Magic Sorcerer. His spellcasting ability is Intelligence (spell save {@dc 19}, {@hit +11} to hit with spell attacks). He has the following sorcerer spells prepared:"
+						"14th-level Wild Magic Sorcerer. Her spellcasting ability is Charisma (spell save {@dc 19}, {@hit +11} to hit with spell attacks). She has the following sorcerer spells prepared:"
 					],
 					"spells": {
 						"0": {
