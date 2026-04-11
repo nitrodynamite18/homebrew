@@ -13894,7 +13894,7 @@
 							"style": "text-center",
 							"entries": [
 								"Join us on the MCDM Discord server, where you can chat with others about Arcadia and more!",
-								"{@link discord.gg/mcdm|http://discord.gg/mcdm}"
+								"{@link discord.gg/mcdm|https://discord.gg/mcdm}"
 							],
 							"id": "001"
 						},

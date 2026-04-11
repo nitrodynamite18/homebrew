@@ -2136,7 +2136,7 @@
 							"style": "text-center",
 							"entries": [
 								"Join us on the MCDM Discord server, where you can chat with others about {@i ARCADIA} and more!",
-								"{@link mcdm.gg/discord|http://mcdm.gg/discord}"
+								"{@link mcdm.gg/discord|https://mcdm.gg/discord}"
 							],
 							"id": "001"
 						},

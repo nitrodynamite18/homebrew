@@ -106,7 +106,7 @@
 			"name": "Zevellon's Scourge",
 			"source": "Ar6",
 			"page": 16,
-			"baseItem": "plate armor|phb",
+			"baseItem": "plate armor|PHB",
 			"type": "HA",
 			"rarity": "legendary",
 			"reqAttune": true,
@@ -388,7 +388,7 @@
 			},
 			"tokenCredit": "Zuzanna Wuzyk",
 			"attachedItems": [
-				"greatsword|phb"
+				"greatsword|PHB"
 			],
 			"senseTags": [
 				"D"
@@ -1686,8 +1686,8 @@
 				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/Ar6/Uldun of Parts Unknown Dynamic.webp"
 			},
 			"attachedItems": [
-				"longbow|phb",
-				"shortsword|phb"
+				"longbow|PHB",
+				"shortsword|PHB"
 			],
 			"traitTags": [
 				"Sneak Attack"
@@ -4246,7 +4246,7 @@
 							"style": "text-center",
 							"entries": [
 								"Join us on the MCDM Discord server, where you can chat with others about Arcadia and more!",
-								"{@link discord.gg/mcdm|http://discord.gg/mcdm}"
+								"{@link discord.gg/mcdm|https://discord.gg/mcdm}"
 							],
 							"id": "001"
 						},

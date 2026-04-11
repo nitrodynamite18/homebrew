@@ -788,7 +788,7 @@
 				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/Ar4/Chained Library Agent.webp"
 			},
 			"attachedItems": [
-				"dagger|phb"
+				"dagger|PHB"
 			],
 			"traitTags": [
 				"Sneak Attack"
@@ -1026,7 +1026,7 @@
 				{
 					"ac": 18,
 					"from": [
-						"{@item plate armor|phb}"
+						"{@item plate armor|PHB}"
 					]
 				}
 			],
@@ -1415,9 +1415,9 @@
 				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/Ar4/Kobold Toll-Master.webp"
 			},
 			"attachedItems": [
-				"dagger|phb",
-				"light crossbow|phb",
-				"sling|phb"
+				"dagger|PHB",
+				"light crossbow|PHB",
+				"sling|PHB"
 			],
 			"hasToken": true
 		},
@@ -1553,7 +1553,7 @@
 				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/Ar4/Librarian.webp"
 			},
 			"attachedItems": [
-				"quarterstaff|phb"
+				"quarterstaff|PHB"
 			],
 			"languageTags": [
 				"C"
@@ -1774,7 +1774,7 @@
 				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/Ar4/Rodric.webp"
 			},
 			"attachedItems": [
-				"longsword|phb"
+				"longsword|PHB"
 			],
 			"hasToken": true,
 			"hasFluff": true
@@ -3138,7 +3138,7 @@
 							"style": "text-center",
 							"entries": [
 								"Join us on the MCDM Discord server, where you can chat with others about Arcadia and more!",
-								"{@link discord.gg/mcdm|http://discord.gg/mcdm}"
+								"{@link discord.gg/mcdm|https://discord.gg/mcdm}"
 							],
 							"id": "001"
 						},

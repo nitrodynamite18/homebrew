@@ -3450,7 +3450,7 @@
 							"style": "text-center",
 							"entries": [
 								"Join us on the MCDM Discord server, where you can chat with others about Arcadia and more!",
-								"{@link discord.gg/mcdm|http://discord.gg/mcdm}"
+								"{@link discord.gg/mcdm|https://discord.gg/mcdm}"
 							],
 							"id": "001"
 						},
@@ -4448,7 +4448,7 @@
 											"width": 400,
 											"height": 400
 										},
-										"{@b Leon Barillaro} is a game and narrative designer working in tabletop, video games, and immersive theater. Their work can also be found in places like the DMs Guild ({@i The Uncaged Anthology, Bard-Core Brawlers, Hair of the Dog}), EN Publishing (Level Up: Advanced 5th Edition), and Fantastic Lairs (Campaign Seed: Prerequisite Forces). You can find Leon on twitter ({@link @barilleon|https://twitter.com/barilleon}) or at his website: {@link barilleon.com|http://www.barilleon.com/}."
+										"{@b Leon Barillaro} is a game and narrative designer working in tabletop, video games, and immersive theater. Their work can also be found in places like the DMs Guild ({@i The Uncaged Anthology, Bard-Core Brawlers, Hair of the Dog}), EN Publishing (Level Up: Advanced 5th Edition), and Fantastic Lairs (Campaign Seed: Prerequisite Forces). You can find Leon on twitter ({@link @barilleon|https://twitter.com/barilleon}) or at his website: {@link barilleon.com|https://www.barilleon.com/}."
 									]
 								},
 								{

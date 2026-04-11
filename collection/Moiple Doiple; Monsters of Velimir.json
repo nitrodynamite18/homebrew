@@ -139,7 +139,7 @@
 				"RW"
 			],
 			"conditionInflict": [
-				"dazed|fleemortals",
+				"dazed|FleeMortals",
 				"frightened",
 				"poisoned"
 			],

@@ -3019,8 +3019,8 @@
 				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/Arcadia11/Samhop Puckerbelt Dynamic.webp"
 			},
 			"attachedItems": [
-				"hand crossbow|phb",
-				"shortsword|phb"
+				"hand crossbow|PHB",
+				"shortsword|PHB"
 			],
 			"traitTags": [
 				"Sneak Attack"
@@ -3266,8 +3266,8 @@
 				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/Arcadia11/Zindri.webp"
 			},
 			"attachedItems": [
-				"greatsword|phb",
-				"shortbow|phb"
+				"greatsword|PHB",
+				"shortbow|PHB"
 			],
 			"actionTags": [
 				"Multiattack"
@@ -4600,7 +4600,7 @@
 							"style": "text-center",
 							"entries": [
 								"Join us on the MCDM Discord server, where you can chat with others about Arcadia and more!",
-								"{@link discord.gg/mcdm|http://discord.gg/mcdm}"
+								"{@link discord.gg/mcdm|https://discord.gg/mcdm}"
 							],
 							"id": "001"
 						},

@@ -1057,7 +1057,7 @@
 			"startingEquipment": [
 				{
 					"_": [
-						"common clothes|phb",
+						"common clothes|PHB",
 						{
 							"special": "scroll that you use to \"map\" important relationships between powerful figures in the city"
 						},
@@ -1065,7 +1065,7 @@
 							"item": "writing kit|Arcadia9"
 						},
 						{
-							"item": "pouch|phb",
+							"item": "pouch|PHB",
 							"containsValue": 1000
 						}
 					]
@@ -1175,16 +1175,16 @@
 				{
 					"_": [
 						{
-							"item": "book|phb",
+							"item": "book|PHB",
 							"displayName": "seminal text that has influenced your activism"
 						},
 						{
-							"item": "book|phb",
+							"item": "book|PHB",
 							"displayName": "notebook written in code with your contacts"
 						},
-						"common clothes|phb",
+						"common clothes|PHB",
 						{
-							"item": "pouch|phb",
+							"item": "pouch|PHB",
 							"containsValue": 1000
 						}
 					]
@@ -1300,18 +1300,18 @@
 				{
 					"_": [
 						{
-							"item": "book|phb",
+							"item": "book|PHB",
 							"displayName": "notebook with contact information (and relevant details) for your boss and their political allies"
 						},
 						{
 							"special": "broadsheet clipping from a story you helped place in a publication"
 						},
-						"fine clothes|phb",
+						"fine clothes|PHB",
 						{
 							"item": "writing kit|Arcadia9"
 						},
 						{
-							"item": "pouch|phb",
+							"item": "pouch|PHB",
 							"containsValue": 1000
 						}
 					]
@@ -1418,7 +1418,7 @@
 			"startingEquipment": [
 				{
 					"_": [
-						"fine clothes|phb",
+						"fine clothes|PHB",
 						{
 							"item": "writing kit|Arcadia9"
 						},
@@ -1426,7 +1426,7 @@
 							"special": "ceremonial ribbon-cutting blade"
 						},
 						{
-							"item": "pouch|phb",
+							"item": "pouch|PHB",
 							"containsValue": 1000
 						}
 					]
@@ -1559,9 +1559,9 @@
 			"startingEquipment": [
 				{
 					"_": [
-						"traveler's clothes|phb",
+						"traveler's clothes|PHB",
 						{
-							"item": "pouch|phb",
+							"item": "pouch|PHB",
 							"containsValue": 1000
 						}
 					]
@@ -1569,12 +1569,12 @@
 				{
 					"a": [
 						{
-							"item": "artisan's tools|phb",
+							"item": "artisan's tools|PHB",
 							"displayName": "set of artisan's tools"
 						}
 					],
 					"b": [
-						"disguise kit|phb"
+						"disguise kit|PHB"
 					]
 				},
 				{
@@ -1592,7 +1592,7 @@
 						}
 					],
 					"d": [
-						"costume clothes|phb"
+						"costume clothes|PHB"
 					]
 				}
 			],
@@ -1787,16 +1787,16 @@
 			],
 			"packContents": [
 				{
-					"item": "pouch|phb",
+					"item": "pouch|PHB",
 					"displayName": "small pouch"
 				},
-				"ink (1-ounce bottle)|phb",
+				"ink (1-ounce bottle)|PHB",
 				{
-					"item": "ink pen|phb",
+					"item": "ink pen|PHB",
 					"displayName": "quill"
 				},
 				{
-					"item": "parchment (one sheet)|phb",
+					"item": "parchment (one sheet)|PHB",
 					"quantity": 20
 				},
 				{
@@ -2041,7 +2041,7 @@
 				{
 					"ac": 11,
 					"from": [
-						"{@item hide armor|phb}"
+						"{@item hide armor|PHB}"
 					]
 				}
 			],
@@ -2056,8 +2056,8 @@
 			"wis": 16,
 			"cha": 10,
 			"gear": [
-				"holy symbol|phb",
-				"book|phb"
+				"holy symbol|PHB",
+				"book|PHB"
 			],
 			"trait": [
 				{
@@ -2213,7 +2213,7 @@
 			"wis": 8,
 			"cha": 15,
 			"gear": [
-				"backpack|phb"
+				"backpack|PHB"
 			],
 			"trait": [
 				{
@@ -2320,8 +2320,8 @@
 			"wis": 12,
 			"cha": 10,
 			"gear": [
-				"component pouch|phb",
-				"spellbook|phb"
+				"component pouch|PHB",
+				"spellbook|PHB"
 			],
 			"trait": [
 				{
@@ -2529,7 +2529,7 @@
 				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/Arcadia9/Misiri the Fractured Dynamic.webp"
 			},
 			"attachedItems": [
-				"longsword|phb"
+				"longsword|PHB"
 			],
 			"senseTags": [
 				"D"
@@ -2757,7 +2757,7 @@
 				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/Arcadia9/Rucio Sabhar Dynamic.webp"
 			},
 			"attachedItems": [
-				"rapier|phb"
+				"rapier|PHB"
 			],
 			"traitTags": [
 				"Devil's Sight",
@@ -5836,7 +5836,7 @@
 							"style": "text-center",
 							"entries": [
 								"Join us on the MCDM Discord server, where you can chat with others about Arcadia and more!",
-								"{@link discord.gg/mcdm|http://discord.gg/mcdm}"
+								"{@link discord.gg/mcdm|https://discord.gg/mcdm}"
 							],
 							"id": "001"
 						},
@@ -6410,7 +6410,7 @@
 											"items": [
 												"{@link RPG safety tools|https://goldenlassogames.com/tools}: These tools include the X-Card (developed by John Stavropoulos), lines/veils, and more.",
 												"{@link RPG Consent checklist|https://docs.google.com/forms/d/1yebKYNcPTus6VI9RxNO7y_zdtktrKZezKwAP5l5vj64/edit}, from the TTRPG Safety Toolkit, a resource created by {@link Kienna Shaw|https://twitter.com/KiennaS} and {@link Lauren Bryant-Monk|https://twitter.com/jl_nicegirl}",
-												"{@link CATS method|http://proleary.com/2016/04/25/the-cats-method-a-story-telling-game-opening-ritual/} ({@link example|https://drive.google.com/file/d/0B74GInw5m2ICXzd5Rl8wTUJmTkE/edit}) by Patrick O'Leary",
+												"{@link CATS method|https://proleary.com/2016/04/25/the-cats-method-a-story-telling-game-opening-ritual/} ({@link example|https://drive.google.com/file/d/0B74GInw5m2ICXzd5Rl8wTUJmTkE/edit}) by Patrick O'Leary",
 												"{@link The Same Page Tool|https://bankuei.wordpress.com/2010/03/27/the-same-page-tool/} from {@link Christopher Chinn's|https://www.patreon.com/bankuei} blog {@link Deeper in the Game|https://bankuei.wordpress.com/}"
 											]
 										}
@@ -6965,7 +6965,7 @@
 											"width": 400,
 											"height": 406
 										},
-										"{@b Mario Ortegón} is a writer and TTRPG designer from Monterrey, Mexico who grew up being fascinated by epic fantasy and the folk tales his abuelo shared with him, and has been merging both in his storytelling ever since. He first gained notoriety as the GM of one of the first live play shows in Latin America, creating a world that merged traditional Mexican folklore with high fantasy. This eventually became {@link Ixalba|http://smokingmirrorgames.com/ixalba/}, his debut project and one he continues to develop as a passion. He has worked with multiple game companies since then, including Wizards of the Coast, Paradox Interactive, Guildhall Studios, and Harebrained Schemes. You can find him on {@link Twitter|https://x.com/elwarius} and {@link Twitch|https://www.twitch.tv/elwarius} as @elwarius."
+										"{@b Mario Ortegón} is a writer and TTRPG designer from Monterrey, Mexico who grew up being fascinated by epic fantasy and the folk tales his abuelo shared with him, and has been merging both in his storytelling ever since. He first gained notoriety as the GM of one of the first live play shows in Latin America, creating a world that merged traditional Mexican folklore with high fantasy. This eventually became {@link Ixalba|https://smokingmirrorgames.com/ixalba/}, his debut project and one he continues to develop as a passion. He has worked with multiple game companies since then, including Wizards of the Coast, Paradox Interactive, Guildhall Studios, and Harebrained Schemes. You can find him on {@link Twitter|https://x.com/elwarius} and {@link Twitch|https://www.twitch.tv/elwarius} as @elwarius."
 									]
 								},
 								{
@@ -7005,7 +7005,7 @@
 											"width": 406,
 											"height": 407
 										},
-										"{@b {@link Chris Bissette|https://x.com/pangalactic}} is an ENnie-nominated designer and musician from Manchester. Their journaling RPG {@link The Wretched|https://loottheroom.itch.io/wretched} was one of {@i Tabletop Gaming Magazine's} \"Best Games of 2020,\" spawning hundreds of games based on its {@i Wretched & Alone} engine. Freelance writing includes The Gauntlet and Hunters Entertainment, among others. More at {@link http://loottheroom.io/}."
+										"{@b {@link Chris Bissette|https://x.com/pangalactic}} is an ENnie-nominated designer and musician from Manchester. Their journaling RPG {@link The Wretched|https://loottheroom.itch.io/wretched} was one of {@i Tabletop Gaming Magazine's} \"Best Games of 2020,\" spawning hundreds of games based on its {@i Wretched & Alone} engine. Freelance writing includes The Gauntlet and Hunters Entertainment, among others. More at {@link https://loottheroom.io/}."
 									]
 								}
 							],

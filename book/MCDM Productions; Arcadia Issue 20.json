@@ -1642,7 +1642,7 @@
 				}
 			],
 			"attachedItems": [
-				"maul|phb"
+				"maul|PHB"
 			],
 			"traitTags": [
 				"Magic Weapons",
@@ -1851,8 +1851,8 @@
 				"source": "Ar20"
 			},
 			"attachedItems": [
-				"hand crossbow|phb",
-				"rapier|phb"
+				"hand crossbow|PHB",
+				"rapier|PHB"
 			],
 			"traitTags": [
 				"Sneak Attack"
@@ -2186,7 +2186,7 @@
 				{
 					"ac": 17,
 					"from": [
-						"Medium, {@item shield|phb}"
+						"Medium, {@item shield|PHB}"
 					]
 				}
 			],

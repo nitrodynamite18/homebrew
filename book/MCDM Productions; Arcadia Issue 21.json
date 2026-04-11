@@ -1164,7 +1164,7 @@
 			},
 			"tokenCredit": "Gustavo Pelissari",
 			"attachedItems": [
-				"dagger|phb"
+				"dagger|PHB"
 			],
 			"traitTags": [
 				"Unusual Nature"
@@ -2771,7 +2771,7 @@
 							"style": "text-center",
 							"entries": [
 								"Join us on the MCDM Discord server, where you can chat with others about {@i ARCADIA} and more!",
-								"{@link mcdm.gg/discord|http://mcdm.gg/discord}"
+								"{@link mcdm.gg/discord|https://mcdm.gg/discord}"
 							],
 							"id": "001"
 						},
@@ -4978,7 +4978,7 @@
 										{
 											"type": "list",
 											"items": [
-												"{@link On the Importance of Queer Romances\u2014Role-play as Exploration and Performance of Sexuality|http://widerscreen.fi/numerot/2019-1-2/on-the-importance-of-queer-romances-role-play-as-exploration-and-performance-of-sexuality/} by Tanja Sihvonen and Jaakko Stenros",
+												"{@link On the Importance of Queer Romances\u2014Role-play as Exploration and Performance of Sexuality|https://widerscreen.fi/numerot/2019-1-2/on-the-importance-of-queer-romances-role-play-as-exploration-and-performance-of-sexuality/} by Tanja Sihvonen and Jaakko Stenros",
 												"{@link Wyrding the Self|https://nordiclarp.org/2020/05/18/wyrding-the-self/} by Jonaya Kemper",
 												"{@link Playing with Eros|https://nordiclarp.org/2021/04/29/playing-with-eros-consent-calibration-and-safety-for-erotic-sex-roleplay/} by Maury Brown"
 											]
