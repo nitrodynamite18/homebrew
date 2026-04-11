@@ -22953,10 +22953,7 @@
 		},
 		{
 			"name": "Firecracker",
-			"group": [
-				"Dwarf",
-				"Dwarves"
-			],
+
 			"source": "ToB3",
 			"page": 165,
 			"size": [
@@ -45014,10 +45011,7 @@
 		},
 		{
 			"name": "Pike Guard",
-			"group": [
-				"Dwarf",
-				"Dwarves"
-			],
+
 			"source": "ToB3",
 			"page": 166,
 			"size": [
@@ -45133,10 +45127,7 @@
 		},
 		{
 			"name": "Pike Guard Captain",
-			"group": [
-				"Dwarf",
-				"Dwarves"
-			],
+
 			"source": "ToB3",
 			"page": 166,
 			"size": [
@@ -46373,10 +46364,7 @@
 		},
 		{
 			"name": "Psychophant",
-			"group": [
-				"Cultists"
-			],
-			"source": "ToB3",
+			 "source": "ToB3",
 			"page": 405,
 			"size": [
 				"M"
