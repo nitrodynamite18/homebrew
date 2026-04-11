@@ -13,7 +13,7 @@
 			}
 		],
 		"optionalFeatureTypes": {
-			"mask": "Persona Mask"
+			"Mask": "Persona Mask"
 		},
 		"edition": "classic",
 		"dateAdded": 1578527975,
@@ -28,10 +28,10 @@
 			"className": "Ranger",
 			"classSource": "PHB",
 			"subclassFeatures": [
-				"Abysswalker|Ranger||Abysswalker|MFOV:EA|3",
-				"Shield of Shadows|Ranger||Abysswalker|MFOV:EA|7",
-				"Fiend's Fury|Ranger||Abysswalker|MFOV:EA|11",
-				"Wraith Step|Ranger||Abysswalker|MFOV:EA|15"
+				"Abysswalker|Ranger|PHB|Abysswalker|MFOV:EA|3",
+				"Shield of Shadows|Ranger|PHB|Abysswalker|MFOV:EA|7",
+				"Fiend's Fury|Ranger|PHB|Abysswalker|MFOV:EA|11",
+				"Wraith Step|Ranger|PHB|Abysswalker|MFOV:EA|15"
 			]
 		},
 		{
@@ -40,11 +40,29 @@
 			"source": "MFOV:EA",
 			"className": "Druid",
 			"classSource": "PHB",
+			"additionalSpells": [
+				{
+					"known": {
+						"10": {
+							"rest": {
+								"1e": [
+									"blight",
+									"contagion"
+								]
+							}
+						}
+					}
+				}
+			],
+			"subclassSpells": [
+				"blight",
+				"contagion"
+			],
 			"subclassFeatures": [
-				"Circle of Desolation|Druid||Desolation|MFOV:EA|2",
-				"Desolating Stride|Druid||Desolation|MFOV:EA|6",
-				"Contagious Touch|Druid||Desolation|MFOV:EA|10",
-				"Plague|Druid||Desolation|MFOV:EA|14"
+				"Circle of Desolation|Druid|PHB|Desolation|MFOV:EA|2",
+				"Desolating Stride|Druid|PHB|Desolation|MFOV:EA|6",
+				"Contagious Touch|Druid|PHB|Desolation|MFOV:EA|10",
+				"Plague|Druid|PHB|Desolation|MFOV:EA|14"
 			]
 		},
 		{
@@ -54,9 +72,9 @@
 			"className": "Bard",
 			"classSource": "PHB",
 			"subclassFeatures": [
-				"College of Masks|Bard||Masks|MFOV:EA|3",
-				"Hidden Mask|Bard||Masks|MFOV:EA|6",
-				"Master of Many Masks|Bard||Masks|MFOV:EA|14"
+				"College of Masks|Bard|PHB|Masks|MFOV:EA|3",
+				"Hidden Mask|Bard|PHB|Masks|MFOV:EA|6",
+				"Master of Many Masks|Bard|PHB|Masks|MFOV:EA|14"
 			]
 		},
 		{
@@ -104,12 +122,12 @@
 				"wall of force"
 			],
 			"subclassFeatures": [
-				"Entropy Domain|Cleric||Entropy|MFOV:EA|1",
-				"Entropic Touch|Cleric||Entropy|MFOV:EA|2",
-				"Channel Divinity: Distortion Field|Cleric||Entropy|MFOV:EA|2",
-				"Channel Divinity: Return to Entropy|Cleric||Entropy|MFOV:EA|6",
-				"Divine Strike|Cleric||Entropy|MFOV:EA|8",
-				"Sphere of Annihilation|Cleric||Entropy|MFOV:EA|17"
+				"Entropy Domain|Cleric|PHB|Entropy|MFOV:EA|1",
+				"Entropic Touch|Cleric|PHB|Entropy|MFOV:EA|2",
+				"Channel Divinity: Distortion Field|Cleric|PHB|Entropy|MFOV:EA|2",
+				"Channel Divinity: Return to Entropy|Cleric|PHB|Entropy|MFOV:EA|6",
+				"Divine Strike|Cleric|PHB|Entropy|MFOV:EA|8",
+				"Sphere of Annihilation|Cleric|PHB|Entropy|MFOV:EA|17"
 			]
 		},
 		{
@@ -118,11 +136,27 @@
 			"source": "MFOV:EA",
 			"className": "Rogue",
 			"classSource": "PHB",
+			"additionalSpells": [
+				{
+					"known": {
+						"3": [
+							"poison spray",
+							"shocking grasp",
+							"vicious mockery"
+						]
+					}
+				}
+			],
+			"subclassSpells": [
+				"poison spray",
+				"shocking grasp",
+				"vicious mockery"
+			],
 			"subclassFeatures": [
-				"Man Who Laughs|Rogue||Laughing Man|MFOV:EA|3",
-				"Mind Games|Rogue||Laughing Man|MFOV:EA|9",
-				"Unbelievable Quickness|Rogue||Laughing Man|MFOV:EA|13",
-				"Laugh at Death|Rogue||Laughing Man|MFOV:EA|17"
+				"Man Who Laughs|Rogue|PHB|Laughing Man|MFOV:EA|3",
+				"Mind Games|Rogue|PHB|Laughing Man|MFOV:EA|9",
+				"Unbelievable Quickness|Rogue|PHB|Laughing Man|MFOV:EA|13",
+				"Laugh at Death|Rogue|PHB|Laughing Man|MFOV:EA|17"
 			]
 		},
 		{
@@ -169,10 +203,10 @@
 				"dominate person"
 			],
 			"subclassFeatures": [
-				"Oath of Heresy|Paladin||Heretic|MFOV:EA|3",
-				"Aura of Disbelief|Paladin||Heretic|MFOV:EA|7",
-				"Ur Strike|Paladin||Heretic|MFOV:EA|15",
-				"Apostate|Paladin||Heretic|MFOV:EA|20"
+				"Oath of Heresy|Paladin|PHB|Heretic|MFOV:EA|3",
+				"Aura of Disbelief|Paladin|PHB|Heretic|MFOV:EA|7",
+				"Ur Strike|Paladin|PHB|Heretic|MFOV:EA|15",
+				"Apostate|Paladin|PHB|Heretic|MFOV:EA|20"
 			]
 		},
 		{
@@ -181,11 +215,51 @@
 			"source": "MFOV:EA",
 			"className": "Sorcerer",
 			"classSource": "PHB",
+			"additionalSpells": [
+				{
+					"known": {
+						"1": [
+							"inflict wounds"
+						],
+						"3": [
+							"ray of enfeeblement"
+						],
+						"5": [
+							"animate dead"
+						],
+						"7": [
+							"blight"
+						],
+						"9": [
+							"contagion"
+						],
+						"11": [
+							"create undead"
+						],
+						"14": {
+							"_": [
+								{
+									"choose": "level=0|school=N",
+									"count": 1
+								}
+							]
+						}
+					}
+				}
+			],
+			"subclassSpells": [
+				"inflict wounds",
+				"ray of enfeeblement",
+				"animate dead",
+				"blight",
+				"contagion",
+				"create undead"
+			],
 			"subclassFeatures": [
-				"Pale Master|Sorcerer||Pale Master|MFOV:EA|1",
-				"Emissary of Death|Sorcerer||Pale Master|MFOV:EA|6",
-				"Spellstitched Cohort|Sorcerer||Pale Master|MFOV:EA|14",
-				"Overlord|Sorcerer||Pale Master|MFOV:EA|18"
+				"Pale Master|Sorcerer|PHB|Pale Master|MFOV:EA|1",
+				"Emissary of Death|Sorcerer|PHB|Pale Master|MFOV:EA|6",
+				"Spellstitched Cohort|Sorcerer|PHB|Pale Master|MFOV:EA|14",
+				"Overlord|Sorcerer|PHB|Pale Master|MFOV:EA|18"
 			]
 		},
 		{
@@ -195,10 +269,10 @@
 			"className": "Barbarian",
 			"classSource": "PHB",
 			"subclassFeatures": [
-				"Path of the Cannibal|Barbarian||Cannibal|MFOV:EA|3",
-				"Manhunter|Barbarian||Cannibal|MFOV:EA|6",
-				"Grim Visage|Barbarian||Cannibal|MFOV:EA|10",
-				"Consume Soul|Barbarian||Cannibal|MFOV:EA|14"
+				"Path of the Cannibal|Barbarian|PHB|Cannibal|MFOV:EA|3",
+				"Manhunter|Barbarian|PHB|Cannibal|MFOV:EA|6",
+				"Grim Visage|Barbarian|PHB|Cannibal|MFOV:EA|10",
+				"Consume Soul|Barbarian|PHB|Cannibal|MFOV:EA|14"
 			]
 		},
 		{
@@ -207,11 +281,23 @@
 			"source": "MFOV:EA",
 			"className": "Wizard",
 			"classSource": "PHB",
+			"additionalSpells": [
+				{
+					"known": {
+						"2": [
+							"find familiar"
+						]
+					}
+				}
+			],
+			"subclassSpells": [
+				"find familiar"
+			],
 			"subclassFeatures": [
-				"School of Diabolism|Wizard||Diabolist|MFOV:EA|2",
-				"Anchor of Hell|Wizard||Diabolist|MFOV:EA|6",
-				"Devil's Advocate|Wizard||Diabolist|MFOV:EA|10",
-				"Form Pact|Wizard||Diabolist|MFOV:EA|14"
+				"School of Diabolism|Wizard|PHB|Diabolist|MFOV:EA|2",
+				"Anchor of Hell|Wizard|PHB|Diabolist|MFOV:EA|6",
+				"Devil's Advocate|Wizard|PHB|Diabolist|MFOV:EA|10",
+				"Form Pact|Wizard|PHB|Diabolist|MFOV:EA|14"
 			]
 		},
 		{
@@ -259,10 +345,10 @@
 				"telekinesis"
 			],
 			"subclassFeatures": [
-				"The Parasite|Warlock||Parasite|MFOV:EA|1",
-				"Agitate Magic|Warlock||Parasite|MFOV:EA|6",
-				"Host's Resilience|Warlock||Parasite|MFOV:EA|10",
-				"Transfer Host|Warlock||Parasite|MFOV:EA|14"
+				"The Parasite|Warlock|PHB|Parasite|MFOV:EA|1",
+				"Agitate Magic|Warlock|PHB|Parasite|MFOV:EA|6",
+				"Host's Resilience|Warlock|PHB|Parasite|MFOV:EA|10",
+				"Transfer Host|Warlock|PHB|Parasite|MFOV:EA|14"
 			]
 		},
 		{
@@ -271,12 +357,24 @@
 			"source": "MFOV:EA",
 			"className": "Fighter",
 			"classSource": "PHB",
+			"additionalSpells": [
+				{
+					"known": {
+						"15": [
+							"invisibility"
+						]
+					}
+				}
+			],
+			"subclassSpells": [
+				"invisibility"
+			],
 			"subclassFeatures": [
-				"Umbral Knight|Fighter||Umbral Knight|MFOV:EA|3",
-				"Morphic Weapon|Fighter||Umbral Knight|MFOV:EA|7",
-				"Shadowcast|Fighter||Umbral Knight|MFOV:EA|10",
-				"Go Unseen|Fighter||Umbral Knight|MFOV:EA|15",
-				"Perfect Darkness|Fighter||Umbral Knight|MFOV:EA|18"
+				"Umbral Knight|Fighter|PHB|Umbral Knight|MFOV:EA|3",
+				"Morphic Weapon|Fighter|PHB|Umbral Knight|MFOV:EA|7",
+				"Shadowcast|Fighter|PHB|Umbral Knight|MFOV:EA|10",
+				"Go Unseen|Fighter|PHB|Umbral Knight|MFOV:EA|15",
+				"Perfect Darkness|Fighter|PHB|Umbral Knight|MFOV:EA|18"
 			]
 		},
 		{
@@ -285,11 +383,27 @@
 			"source": "MFOV:EA",
 			"className": "Monk",
 			"classSource": "PHB",
+			"additionalSpells": [
+				{
+					"known": {
+						"3": {
+							"rest": {
+								"1e": [
+									"animate dead"
+								]
+							}
+						}
+					}
+				}
+			],
+			"subclassSpells": [
+				"animate dead"
+			],
 			"subclassFeatures": [
-				"Way of the Jiangshi|Monk||Jiangshi|MFOV:EA|3",
-				"Perfect Undeath|Monk||Jiangshi|MFOV:EA|6",
-				"The Dead Walk|Monk||Jiangshi|MFOV:EA|11",
-				"A Thousand Deaths|Monk||Jiangshi|MFOV:EA|17"
+				"Way of the Jiangshi|Monk|PHB|Jiangshi|MFOV:EA|3",
+				"Perfect Undeath|Monk|PHB|Jiangshi|MFOV:EA|6",
+				"The Dead Walk|Monk|PHB|Jiangshi|MFOV:EA|11",
+				"A Thousand Deaths|Monk|PHB|Jiangshi|MFOV:EA|17"
 			]
 		}
 	],
@@ -306,11 +420,11 @@
 			"entries": [
 				"A barbarian that follows the Path of the Cannibal is truly a monster to behold. Only man-eaters, as they are called, hunt men for sport, and do it with such grisly intent. They believe that when they consume their foes' flesh, they destroy that creature's eternal soul and absorb part of its essence into their own. Of course, such beliefs are barbaric, by even the standards of most primitive cultures, but the ferocity of a man-eater is, regardless, known the world-over.",
 				{
+					"type": "entries",
 					"name": "Consume Flesh",
 					"entries": [
 						"Starting at 3rd level, whenever you reduce a creature to 0 hit points while raging, you regain hit points equal to twice your barbarian level. In addition, until the beginning of your next turn, you have advantage on ability checks and saving throws."
-					],
-					"type": "entries"
+					]
 				}
 			]
 		},
@@ -462,7 +576,7 @@
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Bonus Proficiencies|Cleric||Entropy|MFOV:EA|1"
+					"subclassFeature": "Bonus Proficiencies|Cleric|PHB|Entropy|MFOV:EA|1"
 				}
 			]
 		},
@@ -1041,11 +1155,11 @@
 			"entries": [
 				"Rangers that reflect the abysswalker archetype have traveled to the Lower Planes, either physically or spiritually, and witnessed its darkness firsthand. Such a deep evil imprints itself on those who visit there, and abysswalkers manifest some of its traits.",
 				{
+					"type": "entries",
 					"name": "Infernal Lash",
 					"entries": [
-						"Starting when you choose this archetype at 3rd level, when you take the Attack action on your turn, you can use your bonus action to strike out at an enemy with a whip of necrotic energy. Make a ranged spell attack roll against a creature within 15 feet. This attack does not have disadvantage due to being with reach of a hostile creature. On a hit, the target takes {@damage 1d8} necrotic damage. At 10th level, you can add your Wisdom modifier to this damage."
-					],
-					"type": "entries"
+						"Starting when you choose this archetype at 3rd level, when you take them {@action Attack} action on your turn, you can use your bonus action to strike out at an enemy with a whip of necrotic energy. Make a ranged spell attack roll against a creature within 15 feet. This attack does not have disadvantage due to being with reach of a hostile creature. On a hit, the target takes {@damage 1d8} necrotic damage. At 10th level, you can add your Wisdom modifier to this damage."
+					]
 				}
 			]
 		},
@@ -1240,11 +1354,11 @@
 				"Because you are like the dead, they heed your beck and call. Your might grows as the dark curse rises within you, and an undead horde gathers at your side.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Deathsign|Sorcerer||Pale Master|MFOV:EA|1"
+					"subclassFeature": "Deathsign|Sorcerer|PHB|Pale Master|MFOV:EA|1"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Undead Cohort|Sorcerer||Pale Master|MFOV:EA|1"
+					"subclassFeature": "Undead Cohort|Sorcerer|PHB|Pale Master|MFOV:EA|1"
 				}
 			]
 		},
@@ -1416,7 +1530,7 @@
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Leeching Strike|Warlock||Parasite|MFOV:EA|1"
+					"subclassFeature": "Leeching Strike|Warlock|PHB|Parasite|MFOV:EA|1"
 				}
 			]
 		},
@@ -1492,18 +1606,18 @@
 			"entries": [
 				"You have long considered that power is most often profane. Vile fiends, which reside in eternal pits of flame outside the mortal realm, wield power that puts the works of mortal men to shame. Yet, they are unequivocally evil and going so far as to strike a bargain with one is worthy of damnation. Through intense study of obscure summoning and binding rituals, you've reached out to the Lower Planes and have contacted a fiend yourself, not to parlay with, but to command.",
 				{
+					"type": "entries",
 					"name": "Vile Knowledge",
 					"entries": [
 						"By 2nd level, you are well versed in all manner of occult rituals and fiendish summons, and have advantage on Intelligence ({@skill Arcana}) checks involving them."
-					],
-					"type": "entries"
+					]
 				},
 				{
+					"type": "entries",
 					"name": "Imp Familiar",
 					"entries": [
 						"At 2nd level, you add the {@spell find familiar} spell to your spellbook, if it was not there already. When you summon your familiar, you can instead summon an {@creature imp} which obeys your commands as a familiar does. As a bonus action on your turn, you can command your imp familiar to perform an action or make an attack."
-					],
-					"type": "entries"
+					]
 				}
 			]
 		},
@@ -1566,7 +1680,7 @@
 			"name": "Angel",
 			"source": "MFOV:EA",
 			"featureType": [
-				"mask"
+				"Mask"
 			],
 			"entries": [
 				"The image of an androgynous face with eyes serenely upturned to the heavens forms this mask, carved from flawless alabaster. When you hit a creature with a melee weapon attack, you can expend one spell slot to deal radiant damage to the target, in addition to the weapon's damage. The extra damage is {@damage 1d8} for a 1st-level spell slot, plus {@damage 1d8} for each spell level higher than 1st, to a maximum of {@damage 4d8}.",
@@ -1577,7 +1691,7 @@
 			"name": "Archmage",
 			"source": "MFOV:EA",
 			"featureType": [
-				"mask"
+				"Mask"
 			],
 			"entries": [
 				"This mask of deep purple fluorite is sculpted in the image of a heavily wrinkled old man. While wearing this mask, you have the spells {@spell burning hands}, {@spell expeditious retreat}, and {@spell magic missile} prepared in addition to the spells you have prepared. Beginning at 6th level, add can add {@spell gust of wind} and {@spell scorching ray} to your spells prepared.",
@@ -1588,7 +1702,7 @@
 			"name": "Assassin",
 			"source": "MFOV:EA",
 			"featureType": [
-				"mask"
+				"Mask"
 			],
 			"entries": [
 				"Hardened black leather and metal clasps create the disturbing aspect of the assassin. While you are wearing this mask, you can deal an extra {@damage 1d6} damage to one creature you hit with an attack if you have advantage on the attack roll. The attack must use a finesse or a ranged weapon. You don't need advantage on the attack roll if another enemy of the target is within 5 feet of it, that enemy isn't incapacitated, and you don't have disadvantage on the attack roll.",
@@ -1600,7 +1714,7 @@
 			"name": "Beast",
 			"source": "MFOV:EA",
 			"featureType": [
-				"mask"
+				"Mask"
 			],
 			"entries": [
 				"Bright, flaking warpaint streaks this battered wooden image of a snarling, fang-toothed wild man. Whenever you make your first attack on your turn while wearing this mask, you can decide to attack recklessly. Doing so gives you advantage on melee weapon attack rolls using Strength during this turn, but attack rolls against you have advantage until your next turn.",
@@ -1611,7 +1725,7 @@
 			"name": "Dragon",
 			"source": "MFOV:EA",
 			"featureType": [
-				"mask"
+				"Mask"
 			],
 			"entries": [
 				"This multihued mask of precious metals and scintillating gemstones forms the terrible visage of a snarling wyrm. While you wear this mask, you can use your action to exhale destructive energy. Each creature in a 15-foot cone must make Dexterity saving throw or take {@damage 2d6} fire damage. You can use this ability a number of times equal to your Charisma modifier. When you finish a long rest, you regain all expended uses.",
@@ -1623,7 +1737,7 @@
 			"name": "Faceless",
 			"source": "MFOV:EA",
 			"featureType": [
-				"mask"
+				"Mask"
 			],
 			"entries": [
 				"Only a pair of empty eyeholes break this otherwise featureless oval, porcelain mask. While you wear this mask, you have advantage on saving throws against spells.",
@@ -1634,7 +1748,7 @@
 			"name": "Fiend",
 			"source": "MFOV:EA",
 			"featureType": [
-				"mask"
+				"Mask"
 			],
 			"entries": [
 				"This obsidian mask bears the visage of a darkly handsome demon or devil. Small, black horns adorn the fiend's forehead, and its black ears rise to points. You have resistance to fire and cold damage while you are wearing this mask.",
@@ -1645,7 +1759,7 @@
 			"name": "Gladiator",
 			"source": "MFOV:EA",
 			"featureType": [
-				"mask"
+				"Mask"
 			],
 			"entries": [
 				"This wyvern-hide mask is shaped like the face of a grim warrior. Scars cover its surface, and silver chainmail rings surround its outer edge. While you wear this mask, you have proficiency with medium armor and martial weapons.",
@@ -1656,7 +1770,7 @@
 			"name": "High Priest",
 			"source": "MFOV:EA",
 			"featureType": [
-				"mask"
+				"Mask"
 			],
 			"entries": [
 				"This mask of rose porphyry has a wide mouth open in song, but instead of eyes it has slits twisted into runes, which somehow do not restrict your vision. While wearing this mask, you have the spells {@spell bless}, {@spell detect evil and good}, and {@spell healing word} prepared in addition to the spells you have prepared. Beginning at 6th level, add {@spell aid} and {@spell zone of truth} to your spells prepared.",
@@ -1667,7 +1781,7 @@
 			"name": "Monk",
 			"source": "MFOV:EA",
 			"featureType": [
-				"mask"
+				"Mask"
 			],
 			"entries": [
 				"This smoothly sanded wooden mask depicts the stern face of a bald man. While wearing this mask, you can use Dexterity instead of Strength for the attack and damage rolls of your unarmed strikes, and your unarmed strikes deal {@damage 1d4} bludgeoning damage on a hit. Additionally, when you use the Attack action with an unarmed strike on your turn, you can make one unarmed strike as a bonus action.",
@@ -1700,8 +1814,8 @@
 				{
 					"ac": 20,
 					"from": [
-						"{@item plate armor|phb}",
-						"{@item shield|phb}"
+						"{@item plate armor|PHB}",
+						"{@item shield|PHB}"
 					]
 				}
 			],
@@ -1786,7 +1900,7 @@
 				}
 			],
 			"attachedItems": [
-				"longsword|phb"
+				"longsword|PHB"
 			],
 			"traitTags": [
 				"Magic Resistance"
@@ -2073,7 +2187,7 @@
 				{
 					"ac": 16,
 					"from": [
-						"{@item breastplate|phb}"
+						"{@item breastplate|PHB}"
 					]
 				}
 			],
@@ -2194,7 +2308,7 @@
 				}
 			],
 			"attachedItems": [
-				"mace|phb"
+				"mace|PHB"
 			],
 			"traitTags": [
 				"Magic Resistance"
@@ -2264,9 +2378,6 @@
 		{
 			"name": "Neferat, the Man-Eater",
 			"shortName": "Neferat",
-			"group": [
-				"Orc"
-			],
 			"isNpc": true,
 			"isNamedCreature": true,
 			"source": "MFOV:EA",
@@ -2370,8 +2481,8 @@
 				}
 			],
 			"attachedItems": [
-				"greataxe|phb",
-				"spear|phb"
+				"greataxe|PHB",
+				"spear|PHB"
 			],
 			"traitTags": [
 				"Aggressive",
@@ -2609,7 +2720,7 @@
 				}
 			],
 			"attachedItems": [
-				"dagger|phb"
+				"dagger|PHB"
 			],
 			"traitTags": [
 				"Regeneration",
@@ -2811,8 +2922,8 @@
 				}
 			],
 			"attachedItems": [
-				"light crossbow|phb",
-				"rapier|phb"
+				"light crossbow|PHB",
+				"rapier|PHB"
 			],
 			"actionTags": [
 				"Multiattack"
@@ -2883,8 +2994,8 @@
 				{
 					"ac": 20,
 					"from": [
-						"{@item plate armor|phb}",
-						"{@item shield|phb}"
+						"{@item plate armor|PHB}",
+						"{@item shield|PHB}"
 					]
 				}
 			],
@@ -3004,7 +3115,7 @@
 				}
 			],
 			"attachedItems": [
-				"longsword|phb"
+				"longsword|PHB"
 			],
 			"actionTags": [
 				"Multiattack",
@@ -3231,7 +3342,7 @@
 				}
 			],
 			"attachedItems": [
-				"dagger|phb"
+				"dagger|PHB"
 			],
 			"traitTags": [
 				"Magic Resistance"
@@ -3449,7 +3560,7 @@
 				{
 					"ac": 17,
 					"from": [
-						"{@item studded leather armor|phb}"
+						"{@item studded leather armor|PHB}"
 					]
 				}
 			],
@@ -3550,7 +3661,7 @@
 				}
 			],
 			"attachedItems": [
-				"shortsword|phb"
+				"shortsword|PHB"
 			],
 			"traitTags": [
 				"Sneak Attack"
@@ -3618,7 +3729,7 @@
 				{
 					"ac": 15,
 					"from": [
-						"{@item chain shirt|phb}"
+						"{@item chain shirt|PHB}"
 					]
 				}
 			],
@@ -3773,7 +3884,7 @@
 				}
 			],
 			"attachedItems": [
-				"morningstar|phb"
+				"morningstar|PHB"
 			],
 			"actionTags": [
 				"Multiattack"
@@ -3840,7 +3951,7 @@
 				{
 					"ac": 17,
 					"from": [
-						"{@item half plate armor|phb}"
+						"{@item half plate armor|PHB}"
 					]
 				}
 			],
@@ -3980,7 +4091,7 @@
 				}
 			],
 			"attachedItems": [
-				"shortsword|phb"
+				"shortsword|PHB"
 			],
 			"traitTags": [
 				"Devil's Sight"
