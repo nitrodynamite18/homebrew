@@ -1,11 +1,12 @@
 {
+	"$schema": "https://raw.githubusercontent.com/TheGiddyLimit/5etools-utils/master/schema/brew-fast/homebrew.json",
 	"_meta": {
 		"sources": [
 			{
 				"json": "SCoC",
 				"abbreviation": "SCoC",
 				"full": "Stibbles Codex of Companions",
-				"url": "https://ghostfiregaming.com/stibbles-codex-project/?v=3a52f3c22ed6",
+				"url": "https://ghostfiregaming.com/stibbles-codex/",
 				"version": "1.0",
 				"authors": [
 					"Logan Reese"
@@ -16,11 +17,11 @@
 			}
 		],
 		"optionalFeatureTypes": {
-			"CB": "Companion Bond",
+			"AT": "Ability Training",
 			"BB": "Bond Boons",
+			"CB": "Companion Bond",
 			"CP": "Common Personality",
-			"EP": "Evil Personality",
-			"AT": "Ability Training"
+			"EP": "Evil Personality"
 		},
 		"edition": "classic",
 		"dateAdded": 1633201623,
@@ -5724,10 +5725,12 @@
 				"T"
 			],
 			"type": {
-				"type": "construct",
-				"tags": [
-					"or elemental"
-				]
+				"type": {
+					"choose": [
+						"construct",
+						"elemental"
+					]
+				}
 			},
 			"alignment": [
 				"L",
@@ -5761,25 +5764,17 @@
 				"darkvision 60 ft."
 			],
 			"passive": 10,
+			"vulnerable": [
+				"bludgeoning",
+				"thunder"
+			],
 			"resist": [
-				{
-					"resist": [
-						"cold",
-						"fire",
-						"lightning"
-					]
-				}
+				"cold",
+				"fire",
+				"lightning"
 			],
 			"immune": [
 				"poison"
-			],
-			"vulnerable": [
-				{
-					"vulnerable": [
-						"bludgeoning",
-						"thunder"
-					]
-				}
 			],
 			"conditionImmune": [
 				"exhaustion",
@@ -5856,8 +5851,7 @@
 				{
 					"name": "Light Laser",
 					"entries": [
-						"{@atk rw} {@hit 4} to hit, range",
-						"{@b {@i 30/120 ft.}} , one target. {@h}6 ({@damage 1d12}) fire damage."
+						"{@atk rw} {@hit 4} to hit, range 30/120 ft., one target. {@h}6 ({@damage 1d12}) fire damage."
 					]
 				}
 			],
@@ -7659,13 +7653,12 @@
 			"source": "SCoC",
 			"page": 28,
 			"size": [
-				"T"
+				"T",
+				"S",
+				"M"
 			],
 			"type": {
-				"type": "beast",
-				"tags": [
-					"or small, or medium"
-				]
+				"type": "beast"
 			},
 			"alignment": [
 				"N",
@@ -7692,7 +7685,7 @@
 			},
 			"passive": 14,
 			"languages": [
-				"understands common but can't speak"
+				"understands Common but can't speak"
 			],
 			"cr": "1/8",
 			"trait": [
@@ -7788,6 +7781,7 @@
 				"Keen Senses"
 			],
 			"languageTags": [
+				"C",
 				"CS"
 			],
 			"damageTags": [
