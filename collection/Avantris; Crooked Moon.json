@@ -48,8 +48,8 @@
 		],
 		"edition": "one",
 		"dateAdded": 1722887888,
-		"dateLastModified": 1776257629,
-		"_dateLastModifiedHash": "3ad8c43649"
+		"dateLastModified": 1777024373,
+		"_dateLastModifiedHash": "1d1fca3b63"
 	},
 	"subclass": [
 		{
@@ -33170,7 +33170,7 @@
 					"type": "entries",
 					"name": "Fabled Heirloom",
 					"entries": [
-						"Each Fabled Heirloom is a magic item that grows in strength as its attuned owner gains power. The rarity of each heirloom increases as the character grows in level, as shown on the Heirloom Rarity table. An heirloom's description details the properties it always has, as well as the properties it gains as it increases in rarity. The heirloom has all the properties of its rarity and lower."
+						"Each Fabled Heirloom is a magic item that grows in strength as its attuned owner gains power. The rarity of each heirloom increases as the character grows in level, as shown on the {@table Heirloom Rarity|CrookedMoon24} table. An heirloom's description details the properties it always has, as well as the properties it gains as it increases in rarity. The heirloom has all the properties of its rarity and lower."
 					]
 				}
 			]
@@ -59254,6 +59254,29 @@
 		}
 	],
 	"table": [
+		{
+			"name": "Heirloom Rarity",
+			"source": "CrookedMoon24",
+			"caption": "Heirloom Rarity",
+			"page": 594,
+			"colLabels": [
+				"Level 1\u20136",
+				"Level 7\u201312",
+				"Level 13+"
+			],
+			"colStyles": [
+				"col-4 text-center",
+				"col-4 text-center",
+				"col-4 text-center"
+			],
+			"rows": [
+				[
+					"Rare",
+					"Very Rare",
+					"Legendary"
+				]
+			]
+		},
 		{
 			"name": "Chaotic Curses",
 			"source": "CrookedMoon24",
@@ -90624,7 +90647,7 @@
 							"id": "97d",
 							"entries": [
 								"Ancient soul-binding magicks twist through the shrouded domain of Druskenvald, drawn to legendary beings with fate-touched souls. This spiritual energy weaves its way through the relics that these entities possess, imbuing them with their wielder's essence and power. Once severed from the mythic figures that shaped them, Fabled Heirlooms can be taken up by new bearers, granting strange and fearsome abilities that continue to awaken as their keepers' souls grow stronger.",
-								"Each Fabled Heirloom is a magic item that grows in strength as its attuned owner gains power. The rarity of each heirloom increases as the character grows in level, as shown on the Heirloom Rarity table. An heirloom's description details the properties it always has, as well as the properties it gains as it increases in rarity. The heirloom has all the properties of its rarity and lower.",
+								"Each Fabled Heirloom is a magic item that grows in strength as its attuned owner gains power. The rarity of each heirloom increases as the character grows in level, as shown on the {@table Heirloom Rarity|CrookedMoon24} table. An heirloom's description details the properties it always has, as well as the properties it gains as it increases in rarity. The heirloom has all the properties of its rarity and lower.",
 								{
 									"type": "table",
 									"caption": "Heirloom Rarity",
@@ -98104,7 +98127,7 @@
 							"page": 595,
 							"entries": [
 								"Ancient soul-binding magicks twist through the shrouded domain of Druskenvald, drawn to legendary beings with fate-touched souls. This spiritual energy weaves its way through the relics that these entities possess, imbuing them with their wielder's essence and power. Once severed from the mythic figures that shaped them, Fabled Heirlooms can be taken up by new bearers, granting strange and fearsome abilities that continue to awaken as their keepers' souls grow stronger.",
-								"Each Fabled Heirloom is a magic item that grows in strength as its attuned owner gains power. The rarity of each heirloom increases as the character grows in level, as shown on the Heirloom Rarity table. An heirloom's description details the properties it always has, as well as the properties it gains as it increases in rarity. The heirloom has all the properties of its rarity and lower.",
+								"Each Fabled Heirloom is a magic item that grows in strength as its attuned owner gains power. The rarity of each heirloom increases as the character grows in level, as shown on the {@table Heirloom Rarity|CrookedMoon24} table. An heirloom's description details the properties it always has, as well as the properties it gains as it increases in rarity. The heirloom has all the properties of its rarity and lower.",
 								{
 									"type": "table",
 									"caption": "Heirloom Rarity",
