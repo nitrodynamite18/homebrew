@@ -3637,6 +3637,165 @@
 			]
 		},
 		{
+			"name": "Chromatic Vortex",
+			"source": "GlensGrimoireOfMayhem",
+			"page": 27,
+			"level": 9,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"amount": 300,
+					"type": "feet"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "a diamond worth at least 500 GP",
+					"cost": 50000
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You tap into and, for a split second, release the power of pure chaos into the world. A churning vortex of wild magic appears, centered on a point you can see within range. This vortex has a radius of 60 feet. All hostile creatures within the vortex must make a Constitution saving throw. On a failure, roll a {@dice d8} on the table provided below and apply the effects to the creature. On a success, roll a {@dice d8} on the table below, and the creature takes the damage, but suffers none of the other effects.",
+				{
+					"type": "table",
+					"colLabels": [
+						"{@dice d8}",
+						"Effect"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 1
+								}
+							},
+							"The target is splattered with acids that eat through their garments and into their flesh. If they are wearing armor, the target takes {@damage 10d6} acid damage. If the armor is nonmagical, it is no longer suitable as armor, losing its bonus to AC. If they are not wearing armor, they take {@damage 15d6} acid damage and are incapacitated until the beginning of your next turn."
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 2
+								}
+							},
+							"The target is chilled to the bone as cold purveys their soul and a layer of ice covers their skin. They take {@damage 12d8} cold damage and are restrained. At the start of each of their turns, they make a Strength saving throw, freeing themself on a success."
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 3
+								}
+							},
+							"The target is assailed with a torrent of flame. They take {@damage 12d6} fire damage. At the beginning of each of their turns, they must make a Dexterity saving throw, taking {@damage 4d6} fire damage on a failed save or extinguishing the flames on a success."
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 4
+								}
+							},
+							"The target is hit with a bolt of lightning so powerful that it fries their senses. They take 12d6 {@damage 12d6} lightning damage and are {@condition paralyzed} for one minute."
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 5
+								}
+							},
+							"The target is enveloped by death energy, disturbing their mind and body. They take {@damage 14d8} necrotic damage and are {@condition frightened} of you. At the start of each of their turns, they make a Wisdom saving throw, ending the {@condition frightened} condition on a success."
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 6
+								}
+							},
+							"The target is inflicted with poisons beyond the mortal imagination. They take {@damage 12d6} poison damage and are {@condition poisoned}. At the start of each of their turns, they make a Constitution saving throw. On a failed save, they take an additional {@damage 5d6} poison damage. On a success, they end the {@condition poisoned} condition."
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 7
+								}
+							},
+							"A flash of blinding light burns away at the target’s being. They take {@damage 14d8} radiant damage and are {@condition blinded}. At the start of each of their turns, they make a Constitution saving throw, ending the {@condition blinded||blindness} on a success."
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 8
+								}
+							},
+							"The target hears a noise so loud that it permeates their soul and disrupts their physical form. They take {@damage 15d6} thunder damage, are {@condition stunned} until the beginning of their next turn, and are {@condition deafened}. At the start of each of their turns, they make a Constitution saving throw, ending the {@condition deafened||deafness} on a success."
+						]
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					}
+				]
+			},
+			"areaTags": [
+				"Y"
+			],
+			"damageInflict": [
+				"acid",
+				"cold",
+				"fire",
+				"lightning",
+				"necrotic",
+				"poison",
+				"radiant",
+				"thunder"
+			],
+			"conditionInflict": [
+				"deafened",
+				"incapacitated",
+				"restrained",
+				"stunned"
+			],
+			"savingThrow": [
+				"strength",
+				"dexterity",
+				"constitution",
+				"wisdom"
+			],
+			"miscTags": [
+				"MAC",
+				"OBJ",
+				"RO"
+			]
+		},
+		{
 			"name": "Cowboyification",
 			"source": "GlensGrimoireOfMayhem",
 			"page": 21,
@@ -7097,165 +7256,6 @@
 			"miscTags": [
 				"RO",
 				"SCL"
-			]
-		},
-		{
-			"name": "Chromatic Vortex",
-			"source": "GlensGrimoireOfMayhem",
-			"page": 27,
-			"level": 9,
-			"school": "V",
-			"time": [
-				{
-					"number": 1,
-					"unit": "action"
-				}
-			],
-			"range": {
-				"type": "point",
-				"distance": {
-					"amount": 300,
-					"type": "feet"
-				}
-			},
-			"components": {
-				"v": true,
-				"s": true,
-				"m": {
-					"text": "a diamond worth at least 500 GP",
-					"cost": 50000
-				}
-			},
-			"duration": [
-				{
-					"type": "instant"
-				}
-			],
-			"entries": [
-				"You tap into and, for a split second, release the power of pure chaos into the world. A churning vortex of wild magic appears in an unoccupied space that you choose on the map. All hostile creatures within a 60 foot radius of the vortex must make a Constitution saving throw. On a failure, roll a {@dice d8} on the table provided below and apply the effects to the creature. On a success, roll a {@dice d8} on the table below, and the creature takes the damage, but suffers none of the other effects.",
-				{
-					"type": "table",
-					"colLabels": [
-						"{@dice d8}",
-						"Effect"
-					],
-					"colStyles": [
-						"col-2 text-center",
-						"col-10"
-					],
-					"rows": [
-						[
-							{
-								"type": "cell",
-								"roll": {
-									"exact": 1
-								}
-							},
-							"The target is splattered with acids that eat through their garments and into their flesh. If they are wearing armor, the target takes {@damage 10d6} acid damage and the armor is rendered useless, losing its ability to protect its wearer. If they are not wearing armor, then they take {@damage 15d6} acid damage and are {@condition incapacitated} until the beginning of your next turn."
-						],
-						[
-							{
-								"type": "cell",
-								"roll": {
-									"exact": 2
-								}
-							},
-							"The target is chilled to the bone as cold purveys their soul and a layer of ice covers their skin. They take {@damage 12d8} cold damage and are {@condition restrained} until they succeed a Strength saving throw, which they make at the beginning of each of their turns."
-						],
-						[
-							{
-								"type": "cell",
-								"roll": {
-									"exact": 3
-								}
-							},
-							"The target is assailed with a torrent of flame. They take {@damage 12d6} fire damage, and take an additional {@damage 4d6} fire damage at the beginning of each of their turns until they succeed a Dexterity saving throw to extinguish the fire on their person, which they make at the beginning of each of their turns."
-						],
-						[
-							{
-								"type": "cell",
-								"roll": {
-									"exact": 4
-								}
-							},
-							"The target is hit with a bolt of lightning so powerful that it fries their senses. They take 12d6 {@damage 12d6} lightning damage and are {@condition paralyzed} for one minute."
-						],
-						[
-							{
-								"type": "cell",
-								"roll": {
-									"exact": 5
-								}
-							},
-							"The target is enveloped by death energy, disturbing their mind and body. They take {@damage 12d8} necrotic damage and are {@condition frightened} of you until they succeed a Wisdom saving throw, which is made at the beginning of each of their turns."
-						],
-						[
-							{
-								"type": "cell",
-								"roll": {
-									"exact": 6
-								}
-							},
-							"The target is inflicted with poisons beyond the mortal imagination. They take {@damage 12d6} poison damage, are {@condition poisoned}, and take {@damage 5d6} additional poison damage at the beginning of each of their turns. Both of the latter effects last until they succeed a Constitution saving throw, which is made directly after taking the additional poison damage."
-						],
-						[
-							{
-								"type": "cell",
-								"roll": {
-									"exact": 7
-								}
-							},
-							"A flash of blinding light burns away at the target's being. They take {@damage 12d8} radiant damage and are {@condition blinded} until they succeed a Constitution saving throw, which they make at the beginning of their turns."
-						],
-						[
-							{
-								"type": "cell",
-								"roll": {
-									"exact": 8
-								}
-							},
-							"The target hears a noise so loud that it permeates their soul and disrupts their physical form. They take {@damage 15d6} thunder damage, are {@condition stunned} until the beginning of their next turn, and are {@condition deafened} until they succeed a Constitution saving throw, which they make at the beginning of each of their turns."
-						]
-					]
-				}
-			],
-			"classes": {
-				"fromClassList": [
-					{
-						"name": "Sorcerer",
-						"source": "PHB"
-					}
-				]
-			},
-			"areaTags": [
-				"Y"
-			],
-			"damageInflict": [
-				"acid",
-				"cold",
-				"fire",
-				"lightning",
-				"necrotic",
-				"poison",
-				"radiant",
-				"thunder"
-			],
-			"conditionInflict": [
-				"deafened",
-				"incapacitated",
-				"restrained",
-				"stunned"
-			],
-			"savingThrow": [
-				"strength",
-				"dexterity",
-				"constitution",
-				"wisdom"
-			],
-			"miscTags": [
-				"MAC",
-				"OBJ",
-				"RO"
 			]
 		}
 	],
